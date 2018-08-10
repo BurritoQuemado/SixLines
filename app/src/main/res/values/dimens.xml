@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimenLogin">25sp</dimen>
+    <dimen name="dimenButton">22sp</dimen>
+    <dimen name="dimenTextLogin">15sp</dimen>
+    <dimen name="dimenTextMain">30sp</dimen>
+    <dimen name="dimenTextDate">15sp</dimen>
+    <dimen name="dimenTextBigDate">50sp</dimen>
+    <dimen name="dimenNotfound">20sp</dimen>
+</resources>

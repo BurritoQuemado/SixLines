@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.ipn.sixlines">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/six_lines"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/six_lines"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivitiesActivity" />
+        <activity android:name=".AddActivitiesActivity" />
+        <activity android:name=".AddProjectActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".ChangePassActivity" />
+        <activity android:name=".DBHelper" />
+        <activity android:name=".FilesActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ProjectsActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".UsersActivity" />
+        <activity android:name=".AgregarActActivity" />
+        <activity android:name=".SeeActsActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A2082C</color>
+    <color name="colorPrimaryDark">#6C132B</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorIverson">#FFFFFF</color>
+    <color name="colorWakanda">#000000</color>
+    <color name="colorHuelum">#6C132B</color>
+
+
+</resources>

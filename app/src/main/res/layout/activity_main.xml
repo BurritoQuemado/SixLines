@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    android:orientation="vertical"
+    tools:context="mx.ipn.sixlines.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <include layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/id_proyectoMain"
+        style="@style/TextMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:onClick="projectsIntent"
+        android:text="@string/str_main_proyecto" />
+
+    <TextView
+        android:id="@+id/id_fechaMain"
+        style="@style/MainDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_diasMain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-84dp"
+        android:text="@string/str_main_fecha" />
+
+    <TextView
+        android:id="@+id/id_diasMain"
+        style="@style/BigDateMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="@string/str_main_dias" />
+
+    <TextView
+        android:id="@+id/id_restMain"
+        style="@style/MainDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="176dp"
+        android:text="@string/str_main_rest" />
+
+    <ImageView
+        android:id="@+id/imageView_folders"
+        android:layout_width="134dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="212dp"
+        android:onClick="usersIntent"
+        app:srcCompat="@drawable/ic_lines_new_folder"
+        />
+
+    <TextView
+        android:id="@+id/id_txtview_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_folders"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_files" />
+
+    <ImageView
+        android:id="@+id/id_img_activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        app:srcCompat="@drawable/ic_lines_activities"
+        android:onClick="activitiesIntent"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_img_activities"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-151dp"
+        android:text="@string/str_activities" />
+
+
+</RelativeLayout>

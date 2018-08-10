@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:icon="@drawable/ic_lines_home"
+        android:title="Usuario"
+        android:id="@+id/id_icon_home"
+        app:showAsAction="always"
+
+
+        />
+    <item android:icon="@drawable/ic_lines_files"
+        android:title="Usuario"
+        android:id="@+id/id_icon_files"
+        app:showAsAction="always"
+        />
+    <item android:icon="@drawable/ic_lines_calendar"
+        android:title="Usuario"
+        android:id="@+id/id_icon_calendar"
+        app:showAsAction="always"
+
+        />
+
+    <item android:icon="@drawable/ic_lines_user"
+        android:title="Usuario"
+        android:id="@+id/id_icon_user"
+        app:showAsAction="always"
+        />
+
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.ipn.sixlines.ProjectsActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtProjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtProjectTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher ID"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/txtProjectBegin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Begin Day"
+        android:inputType="date"/>
+    <EditText
+        android:id="@+id/txtProjectEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project End Day"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/btn_AddProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:onClick="addProject"/>
+
+</LinearLayout>
+

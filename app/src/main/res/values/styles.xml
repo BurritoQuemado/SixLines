@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="Login">
+        <item name="android:textColorHint">@color/colorIverson</item>
+        <item name="android:textColor">@color/colorIverson</item>
+        <item name="android:textSize">@dimen/dimenLogin</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextLogin">
+        <item name="android:textColor">@color/colorIverson</item>
+        <item name="android:textSize">@dimen/dimenTextLogin</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <style name="Registrar">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColorHint">@color/colorHuelum</item>
+        <item name="android:textColor">@color/colorHuelum</item>
+        <item name="android:typeface">normal</item>
+
+
+    </style>
+    <style name="SpinnerRegistrar">
+        <item name="android:textColor">@color/colorHuelum</item>
+
+
+    </style>
+    <style name="BotonRegistrar">
+        <item name="android:background">@color/colorHuelum</item>
+        <item name="android:textColor">@color/colorIverson</item>
+    </style>
+
+    <style name="TextPerfil">
+        <item name="android:textColor">@color/colorWakanda</item>
+        <item name="android:textSize">@dimen/dimenTextDate</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="TextMain">
+
+        <item name="android:textColor">@color/colorIverson</item>
+        <item name="android:textSize">@dimen/dimenTextMain</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <style name="MainDate">
+        <item name="android:textColor">@color/colorIverson</item>
+        <item name="android:textSize">@dimen/dimenTextDate</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <style name="BigDateMain">
+
+        <item name="android:textColor">@color/colorIverson</item>
+        <item name="android:textSize">@dimen/dimenTextBigDate</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <style name="not_found">
+        <item name="android:textSize">@dimen/dimenNotfound</item>
+    </style>
+
+
+</resources>

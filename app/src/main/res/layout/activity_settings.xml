@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="171dp"
+        android:layout_height="172dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/id_nombrePerfil"
+        style="@style/TextPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/str_perfil_nombre"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/id_usuarioPerfil"
+        style="@style/TextPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_correoPerfil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:text="@string/str_perfil_usuario"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/id_correoPerfil"
+        style="@style/TextPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_passwordPerfil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/str_perfil_correo"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/id_passwordPerfil"
+        style="@style/TextPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="@string/str_perfil_password"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="273dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        app:srcCompat="@drawable/button_pass"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="380dp"
+        android:onClick="changeIntent"/>
+
+
+
+</RelativeLayout>

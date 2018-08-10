@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Lines</string>
+    <string name="str_name">Name</string>
+    <string name="str_pass">Password</string>
+    <string name="not_account">Or</string>
+    <string name="sign_uph">sign up</string>
+    <string name="log_button">Sign in</string>
+    <string name="str_bDay">Birth Day</string>
+    <string name="str_ID">ID</string>
+    <string name="str_school">School</string>
+    <string name="str_state">State / City</string>
+    <string name="str_Lname">Last name</string>
+    <string name="str_career">Career</string>
+    <string name="str_email">Email</string>
+    <string name="str_cpass">Confirm Password</string>
+    <string name="str_teacher">Teacher</string>
+    <string name="str_gleader">Group Leader</string>
+    <string name="str_gmortal">Group Mortal</string>
+    <string name="str_login_correo">Correo Electronico</string>
+    <string name="str_login_contrasena">Contraseña</string>
+    <string name="str_login_registrar">No tengo cuenta</string>
+    <string name="str_login_aviso">Al iniciar sesion usted acepta nuestros</string>
+    <string name="str_login_aviso2">Terminos y Condiciones y Politica de Picacidad</string>
+    <string name="str_main_proyecto">Proyecto Actual</string>
+    <string name="str_main_fecha">15/Abril/2018</string>
+    <string name="str_main_dias">-11-</string>
+    <string name="str_main_rest">dias restantes</string>
+    <string name="str_perfil_nombre">Wade Watts</string>
+    <string name="str_perfil_usuario">PARZIVAL</string>
+    <string name="str_perfil_correo">420allday@imawesome.com</string>
+    <string name="str_perfil_password">Azarath Metrion Zinthos</string>
+
+    <string name="str_menu_home">SixLines</string>
+    <string name="str_menu_files">Archivos</string>
+    <string name="str_menu_calendar">Calendario</string>
+    <string name="str_menu_user">Perfil</string>
+
+    <string name="str_change_pass">Nueva Contraseña</string>
+    <string name="str_change_confirm">Confirmar Nueva Contraseña</string>
+    <string name="str_change_buton">Aceptar</string>
+
+    <string name="str_not_found">No se encontraron archivos</string>
+    <string name="str_files">Archivos</string>
+    <string name="str_activities">Actividades</string>
+
+</resources>
